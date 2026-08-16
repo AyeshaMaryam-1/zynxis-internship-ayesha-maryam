@@ -1,64 +1,67 @@
-# Week 1 — Responsive Landing Page Clone
+# Week 2 — Component-Based Design
 
-**Zynxis Frontend Internship | Task: Modern HTML & CSS Mastery**
+**Zynxis Frontend Internship | Task: Component-Based Design**
 
 ## Deliverable
 
-Pixel-perfect clone of the Vercel landing page using **pure HTML5 + CSS3** (no frameworks).
-
-## Files
-
-```text
-Week1_Responsive_Layouts/
-├── index.html
-├── style.css
-└── README.md
-```
+Build a reusable **UI component library** using **Next.js, TypeScript, and Tailwind CSS**. The components follow a consistent **slate-grey dark theme** aligned with the Zynxis brand.
 
 ## Tech Stack
 
-| Requirement   | Used                                      |
-| ------------- | ----------------------------------------- |
-| Flexbox       | Navbar, Hero, Logo Cloud, CTA, Footer     |
-| CSS Grid      | Features, Stats, Footer, Comparison Table |
-| CSS Variables | Colors, Spacing, Typography, Radii        |
-| Responsive    | 3 breakpoints: 1024px / 768px / 480px     |
+| Technology   | Used                   |
+| ------------ | ---------------------- |
+| Framework    | Next.js                |
+| Language     | TypeScript             |
+| Styling      | Tailwind CSS           |
+| Architecture | Component-Based Design |
+| Theme        | Slate-Grey Dark Theme  |
+| UI           | Reusable Components    |
 
-## Sections
+## Components
 
-**11 sections included:**
+The project includes reusable UI components such as:
 
-1. Top Banner
-2. Navbar
-3. Hero
-4. Logo Cloud
-5. Develop
-6. Frameworks
-7. Preview
-8. Ship
-9. Stats
-10. Get Started
-11. Footer
+* Buttons
+* Cards
+* Modals
+* Input Fields
+* Badges
+* Navigation Components
+* Other reusable UI elements
 
-## Run
+## Key Features
+
+* [x] Next.js project setup
+* [x] TypeScript
+* [x] Tailwind CSS
+* [x] Reusable UI components
+* [x] Component-based architecture
+* [x] Slate-grey dark theme
+* [x] Consistent Zynxis branding
+* [x] Responsive components
+* [x] Clean and maintainable code
+* [x] Component Library + UI Screenshots
+
+## Run Locally
 
 ```bash
-npx serve .
+npm install
+npm run dev
 ```
 
-Or simply open `index.html` directly in your browser.
+Then open:
 
-## Checklist
+```text
+http://localhost:3000
+```
 
-* [x] Pixel-perfect Vercel clone
-* [x] Pure HTML5 + CSS3
-* [x] Single `style.css`
-* [x] CSS Variables
-* [x] Flexbox + CSS Grid
-* [x] Fully responsive
-* [x] Dark Zynxis theme
-* [x] Accessibility (a11y)
+## Deliverables
+
+* **Reusable Component Library**
+* **UI Components**
+* **Responsive Design**
+* **UI Screenshots**
 
 ---
 
-**Built for:** Zynxis Frontend Internship — Week 1
+**Built for:** Zynxis Frontend Internship — Week 2
