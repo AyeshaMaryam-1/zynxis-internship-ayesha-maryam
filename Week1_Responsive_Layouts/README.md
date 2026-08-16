@@ -1,46 +1,64 @@
-# Pixel-Perfect Responsive Vercel Landing Page Clone
+# Week 1 — Responsive Landing Page Clone
 
-## Objective
-This project aims to create a pixel-perfect, responsive clone of the Vercel landing page using only HTML5 and CSS3. The goal is to demonstrate strong frontend fundamentals by replicating the layout, spacing, typography, colors, and responsiveness as closely as possible to the original.
+**Zynxis Frontend Internship | Task: Modern HTML & CSS Mastery**
 
-## Technical Stack
-- HTML5
-- CSS3
+## Deliverable
 
-## Constraints
-- No JavaScript frameworks or libraries (e.g., React, Next.js, jQuery)
-- No CSS frameworks or preprocessors (e.g., Tailwind CSS, Bootstrap, Sass/SCSS)
+Pixel-perfect clone of the Vercel landing page using **pure HTML5 + CSS3** (no frameworks).
 
-## Features Implemented
-- Semantic HTML structure
-- CSS Variables for maintainable styling
-- Flexbox for flexible layouts
-- CSS Grid for complex layouts
-- Responsive Web Design using media queries for mobile, tablet, laptop, and desktop views
-- Clean and maintainable CSS organization
+## Files
 
-## Design Replication
-The clone closely matches the original Vercel landing page in:
-- Layout and visual hierarchy
-- Typography (font sizes, weights, line heights)
-- Spacing (margins, padding)
-- Colors, borders, border-radius, and shadows
-- Button styles
-
-## Responsive Breakpoints
-- Mobile: 375px+
-- Tablet: 768px+
-- Laptop: 1024px+
-- Desktop: 1440px+
-
-## File Structure
-```
+```text
 Week1_Responsive_Layouts/
-│── index.html
-│── css/
-│   └── style.css
-│── assets/
-│   ├── images/
-│   └── icons/
+├── index.html
+├── style.css
 └── README.md
 ```
+
+## Tech Stack
+
+| Requirement   | Used                                      |
+| ------------- | ----------------------------------------- |
+| Flexbox       | Navbar, Hero, Logo Cloud, CTA, Footer     |
+| CSS Grid      | Features, Stats, Footer, Comparison Table |
+| CSS Variables | Colors, Spacing, Typography, Radii        |
+| Responsive    | 3 breakpoints: 1024px / 768px / 480px     |
+
+## Sections
+
+**11 sections included:**
+
+1. Top Banner
+2. Navbar
+3. Hero
+4. Logo Cloud
+5. Develop
+6. Frameworks
+7. Preview
+8. Ship
+9. Stats
+10. Get Started
+11. Footer
+
+## Run
+
+```bash
+npx serve .
+```
+
+Or simply open `index.html` directly in your browser.
+
+## Checklist
+
+* [x] Pixel-perfect Vercel clone
+* [x] Pure HTML5 + CSS3
+* [x] Single `style.css`
+* [x] CSS Variables
+* [x] Flexbox + CSS Grid
+* [x] Fully responsive
+* [x] Dark Zynxis theme
+* [x] Accessibility (a11y)
+
+---
+
+**Built for:** Zynxis Frontend Internship — Week 1
