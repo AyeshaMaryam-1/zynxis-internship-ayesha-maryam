@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vercel — Develop. Preview. Ship.</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- TOP BANNER -->
+    <div class="top-banner">
+        <span>Edge Functions are now GA. <a href="#">Read the blog →</a></span>
+        <button class="banner-close" aria-label="Close">×</button>
+    </div>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <svg width="22" height="20" viewBox="0 0 76 65" fill="white">
+                    <path d="M37.5274 0L75.0548 65H0L37.5274 0Z"/>
+                </svg>
+                <span class="logo-text">Vercel</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Solutions</a></li>
+                <li><a href="#">Resources</a></li>
+                <li><a href="#">Enterprise</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <a href="#" class="nav-link">Log In</a>
+                <a href="#" class="btn btn-primary">Sign Up</a>
+            </div>
+            <button class="mobile-menu-btn" aria-label="Menu">☰</button>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <header class="hero">
+        <div class="container hero-container">
+            <h1 class="hero-title">
+                <span class="grad-blue">Develop.</span>
+                <span class="grad-pink">Preview.</span>
+                <span class="grad-orange">Ship.</span>
+            </h1>
+            <p class="hero-subtitle">
+                Vercel is the platform for frontend developers, providing the speed<br>
+                and reliability innovators need to create at the moment of inspiration.
+            </p>
+            <div class="hero-buttons">
+                <a href="#" class="btn btn-primary btn-lg">
+                    <svg width="16" height="16" viewBox="0 0 76 65" fill="currentColor"><path d="M37.5274 0L75.0548 65H0L37.5274 0Z"/></svg>
+                    Start Deploying
+                </a>
+                <a href="#" class="btn btn-ghost btn-lg">Get a Demo</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- LOGO CLOUD -->
+    <section class="logo-cloud">
+    <div class="container">
+        <p class="section-label">TRUSTED BY THE BEST FRONTEND TEAMS</p>
+        
+        <!-- Row 1: 5 logos -->
+        <div class="logo-row row-1">
+            <div class="logo-item">
+                <svg class="brand-logo" xmlns="http://www.w3.org/2000/svg" width="2.25em" height="2em" viewBox="0 0 27 24">
+                    <path fill="currentColor" d="M17.097 0h10.025v24zm-7.063 0H0v24zm-.853 19.171l4.384-10.329l6.386 15.156h-4.184l-1.91-4.827z"></path>
+                </svg>
+                <text x="48" y="32" font-family="Inter, Arial, sans-serif" font-weight="600" font-size="22" fill="white">Adobe</text>
+            </div>
+            
+            <div class="logo-item">
+                <svg class="brand-logo" viewBox="0 0 90 50" fill="white">
+                    <text x="0" y="34" font-family="Inter, Arial, sans-serif" font-weight="700" font-size="32" letter-spacing="-0.5" fill="white">okta</text>
+                </svg>
+            </div>
+            
+            <div class="logo-item under-armour">
+                <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24">
+                    <path d="M0 0h24v24H0z" fill="none" />
+                    <path fill="currentColor" d="M15.954 12a17 17 0 0 1-.324.233c-.826.585-2.023.985-3.58.985h-.104c-1.556 0-2.755-.4-3.58-.985L8.042 12q.133-.099.324-.234c.825-.584 2.024-.985 3.58-.985h.104c1.557 0 2.756.401 3.58.985q.192.134.325.234M24 7.181s-.709-.541-2.95-1.365c-1.968-.721-3.452-.883-3.452-.883l.006 4.243c0 .598-.162 1.143-.618 1.765c-1.672-.61-3.254-.985-4.981-.985c-1.728 0-3.308.375-4.98.985c-.457-.619-.62-1.168-.62-1.765l.007-4.243s-1.494.16-3.463.883C.709 6.642 0 7.181 0 7.181c.093 1.926 1.78 3.638 4.435 4.82C1.777 13.18.09 14.887 0 16.818c0 0 .709.54 2.949 1.365c1.968.721 3.453.883 3.453.883l-.007-4.244c0-.597.164-1.143.619-1.764c1.672.61 3.252.983 4.98.983c1.727 0 3.309-.374 4.98-.983c.457.62.62 1.167.62 1.764l-.006 4.244s1.484-.16 3.452-.883c2.241-.826 2.95-1.365 2.95-1.365c-.093-1.927-1.78-3.64-4.435-4.819c2.657-1.182 4.343-2.888 4.435-4.82" />
+                </svg>
+
+                <text x="30" y="68" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-weight="600" font-size="10" fill="white">Under Armour</text>
+            </div>
+            
+            <div class="logo-item">
+              <svg xmlns="http://www.w3.org/2000/svg" width="4em" height="4em" viewBox="0 0 24 24">
+                <path d="M0 0h24v24H0z" fill="none" />
+                <path fill="currentColor" d="M6.056 12.132v-4.92h1.2v3.026c.59-.703 1.402-.906 2.202-.906c1.34 0 2.828.904 2.828 2.855c0 .233-.015.457-.06.668c.24-.953 1.274-1.305 2.896-1.344c.51-.018 1.095-.018 1.56-.018v-.135c0-.885-.556-1.244-1.53-1.244c-.72 0-1.245.3-1.305.81h-1.275c.136-1.29 1.5-1.62 2.686-1.62c1.064 0 1.995.27 2.415 1.02l-.436-.84h1.41l2.055 4.125l2.055-4.126H24l-3.72 7.305h-1.346l1.07-2.04l-2.33-4.38c.13.255.2.555.2.93v2.46c0 .346.01.69.04 1.005H16.8a7 7 0 0 1-.046-.765c-.603.734-1.32.96-2.32.96c-1.48 0-2.272-.78-2.272-1.695q.002-.224.037-.405c-.3 1.246-1.36 2.086-2.767 2.086c-.87 0-1.694-.315-2.2-.93c0 .24-.015.494-.04.734h-1.18c.02-.39.04-.855.04-1.245v-1.05h-4.83c.065 1.095.818 1.74 1.853 1.74c.718 0 1.355-.3 1.568-.93h1.24c-.24 1.29-1.61 1.725-2.79 1.725C.95 15.009 0 13.822 0 12.232c0-1.754.982-2.91 3.116-2.91c1.688 0 2.93.886 2.94 2.806v.005zm9.137.183c-1.095.034-1.77.233-1.77.95c0 .465.36.97 1.305.97c1.26 0 1.935-.69 1.935-1.814v-.13c-.45 0-.99.006-1.484.022h.012zm-6.06 1.875c1.11 0 1.876-.806 1.876-2.02s-.768-2.02-1.893-2.02c-1.11 0-1.89.806-1.89 2.02s.765 2.02 1.875 2.02h.03zm-4.35-2.514c-.044-1.125-.854-1.546-1.725-1.546c-.944 0-1.694.474-1.815 1.546z" />
+            </svg>
+            </div>
+            
+            <div class="logo-item">
+                <svg xmlns="http://www.w3.org/2000/svg" width="4em" height="4em" fill="white" viewBox="8.725 6.473538696722773 102.56100253962832 47.026461303277216"><path d="M8.725 43.474l10.65-16.5H9.98a7.82 7.82 0 0 1-.104-1.566 7.967 7.967 0 0 1 .104-1.566h15.14l.2.522-10.756 16.5H24.6a7.82 7.82 0 0 1 .104 1.566 6.42 6.42 0 0 1-.104 1.462H8.83zm30.597-12.74a4.04 4.04 0 0 0-1.149-3.237 5.42 5.42 0 0 0-3.446-.94 20.34 20.34 0 0 0-2.611.209 14.82 14.82 0 0 0-2.297.522 5.8 5.8 0 0 1-.73-3.133 13.22 13.22 0 0 1 2.924-.627 15.81 15.81 0 0 1 3.133-.209 9 9 0 0 1 5.952 1.775c1.358 1.15 2.088 3.133 2.088 5.743v12.635l-3.342.627c-1.312.208-2.64.313-3.968.313-1.156.01-2.3-.096-3.446-.313a6.63 6.63 0 0 1-2.611-1.149 5.16 5.16 0 0 1-1.671-1.984 6.36 6.36 0 0 1-.627-2.924 5.31 5.31 0 0 1 .73-2.924 5.16 5.16 0 0 1 1.88-2.088 10.8 10.8 0 0 1 2.715-1.253c1.052-.3 2.143-.44 3.237-.418a12.03 12.03 0 0 1 2.088.104c.522 0 .94.104 1.358.104v-.835zm0 3.76a8.973 8.973 0 0 1-1.462-.2c-.627 0-1.15-.104-1.566-.104a6.46 6.46 0 0 0-3.76.94 3.23 3.23 0 0 0-1.253 2.715 3.05 3.05 0 0 0 1.462 2.924 3.28 3.28 0 0 0 1.462.418 7.38 7.38 0 0 0 1.462.104 11.35 11.35 0 0 0 1.88-.104l1.67-.313v-6.37zm8.145-10.652c.313 0 .522-.104.835-.104h1.67c.313 0 .522.104.835.104a2.09 2.09 0 0 1 .104.522c0 .313.104.522.104.835s.104.627.104.94c-.003.18.033.357.104.522l.94-1.253a6.653 6.653 0 0 1 1.358-1.044 8.364 8.364 0 0 1 3.968-1.044c1.1-.014 2.212.2 3.237.627a6.65 6.65 0 0 1 2.6 1.88 8.95 8.95 0 0 1 1.671 3.133 14.62 14.62 0 0 1 .627 4.49 11.36 11.36 0 0 1-2.819 8.145c-1.88 1.984-4.5 2.924-7.936 2.924a10.13 10.13 0 0 1-1.775-.104q-.94-.157-1.566-.313v9.294c-.313 0-.627.104-1.044.104h-1.88c-.313 0-.627-.104-.94-.104V23.842zM51.33 40.76a8.7 8.7 0 0 0 1.566.418 12.03 12.03 0 0 0 2.088.104c.9.023 1.774-.12 2.6-.418a4.5 4.5 0 0 0 1.984-1.358 7.6 7.6 0 0 0 1.358-2.402 10.88 10.88 0 0 0 .522-3.446 9.89 9.89 0 0 0-1.149-5.012 4.086 4.086 0 0 0-3.76-1.88 5.91 5.91 0 0 0-1.88.313 4.18 4.18 0 0 0-1.566 1.044 5.22 5.22 0 0 0-1.149 1.775 6.507 6.507 0 0 0-.418 2.6v8.25zm19.006-13.9h-2.6a1.53 1.53 0 0 1-.104-.73v-1.67c0-.313.104-.522.104-.73h6.37v20.258c-.313 0-.627.104-.94.104h-1.88c-.313 0-.627-.104-.94-.104zm12.218 8.04c.104 2.193.627 3.864 1.67 4.804a6.65 6.65 0 0 0 4.804 1.566c1.817.01 3.622-.307 5.326-.94a4.77 4.77 0 0 1 .522 1.462 9.42 9.42 0 0 1 .21 1.67 11.14 11.14 0 0 1-2.819.835c-1.136.217-2.3.322-3.446.313a12.37 12.37 0 0 1-4.7-.73 11.15 11.15 0 0 1-3.237-2.297 8.71 8.71 0 0 1-1.88-3.342 13.47 13.47 0 0 1-.627-4.177c.006-1.408.18-2.8.522-4.177a9.4 9.4 0 0 1 1.775-3.342c.83-.933 1.82-1.7 2.924-2.297a9.69 9.69 0 0 1 4.386-.94 7.81 7.81 0 0 1 6.265 2.715 7.19 7.19 0 0 1 1.566 2.924c.392 1.213.57 2.485.522 3.76v1.15c0 .418-.104.73-.104 1.044zm10.025-2.924a6.75 6.75 0 0 0-.313-2.088 9.25 9.25 0 0 0-.835-1.775 4.25 4.25 0 0 0-1.462-1.253 4.4 4.4 0 0 0-2.088-.418 4.71 4.71 0 0 0-3.655 1.462 7.31 7.31 0 0 0-1.566 4.073zm8.145-8.144c.313 0 .522-.104.835-.104h1.67c.313 0 .522.104.835.104a6.32 6.32 0 0 1 .209 1.566 9.34 9.34 0 0 1 .104 1.67 6.58 6.58 0 0 1 2.193-2.297 6.08 6.08 0 0 1 3.446-.94h.627a.79.79 0 0 1 .522.104c0 .2.104.522.104.73v.835a2.9 2.9 0 0 1-.104.94c0 .313-.104.627-.104.94-.2 0-.418-.104-.627-.104h-.522a6.08 6.08 0 0 0-1.984.313 4.44 4.44 0 0 0-1.775 1.044 5.07 5.07 0 0 0-1.253 2.088 10.02 10.02 0 0 0-.418 3.342V44.1c-.313 0-.627.104-.94.104h-1.88c-.313 0-.73-.104-1.044-.104V23.842zm-22.87-11.894H74l2.715-2.715c-.2-.313-.418-.522-.627-.835a6.04 6.04 0 0 1-.835-.73L72.53 10.37V6.6a3.55 3.55 0 0 0-1.044-.104 3.23 3.23 0 0 0-1.044.104v3.864l-2.82-2.82a2.82 2.82 0 0 0-.835.731c-.2.313-.522.522-.73.835l2.715 2.715H65l-.104 1.044A3.23 3.23 0 0 0 65 14.023h3.864l-2.82 2.82c.413.62.945 1.154 1.566 1.566l2.715-2.715v3.864a3.55 3.55 0 0 0 1.044.104 3.23 3.23 0 0 0 1.044-.104v-3.864l2.715 2.715a2.82 2.82 0 0 0 .835-.731 5.85 5.85 0 0 0 .73-.835L74 14.13h3.864a3.55 3.55 0 0 0 .104-1.044 3.94 3.94 0 0 0-.104-1.15zm-4.804 1.044a5.21 5.21 0 0 1-.21 1.358c-.43.17-.895.24-1.358.2a5.21 5.21 0 0 1-1.358-.21c-.17-.43-.24-.895-.2-1.358a5.21 5.21 0 0 1 .21-1.358c.43-.17.895-.24 1.358-.2a5.21 5.21 0 0 1 1.358.21 6.11 6.11 0 0 1 .209 1.358z"/></svg>
+            </div>
+        </div>
+        
+        <!-- Row 2: 4 logos -->
+        <div class="logo-row row-2">
+            <div class="logo-item">
+                <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24">
+                    <path d="M0 0h24v24H0z" fill="none" />
+                    <path fill="currentColor" d="M24 10.665h-7.018l6.078-3.509l-1.335-2.312l-6.078 3.509l3.508-6.077L16.843.94l-3.508 6.077V0h-2.67v7.018L7.156.94L4.844 2.275l3.509 6.077l-6.078-3.508L.94 7.156l6.078 3.509H0v2.67h7.017L.94 16.844l1.335 2.313l6.077-3.508l-3.509 6.077l2.312 1.335l3.509-6.078V24h2.67v-7.017l3.508 6.077l2.312-1.335l-3.509-6.078l6.078 3.509l1.335-2.313l-6.077-3.508h7.017v-2.67zm-12 4.966a3.645 3.645 0 1 1 0-7.29a3.645 3.645 0 0 1 0 7.29" />
+                </svg>
+                <text x="48" y="32" font-family="Inter, Arial, sans-serif" font-weight="600" font-size="20" fill="white">loom</text>
+            </div>
+            
+            <div class="logo-item">
+                <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24">
+                    <path d="M0 0h24v24H0z" fill="none" />
+                    <path fill="currentColor" d="M10.114 4.094L4.215 7.5v13.09L.666 18.542V5.45L10.114 0zm3.772 13.37l3.549-2.049V2.05L13.885 0v10.426h-3.77v-3.89L6.562 8.585v13.357l3.551 2.054V13.599h3.772zM19.783 3.41V16.5l-5.897 3.405V24l9.448-5.45V5.458l-3.551-2.05z" />
+                </svg>
+                <text x="40" y="33" font-family="Inter, Arial, sans-serif" font-weight="600" font-size="18" fill="white">HashiCorp</text>
+            </div>
+            
+            <div class="logo-item">
+                <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24">
+                    <path d="M0 0h24v24H0z" fill="none" />
+                    <path fill="currentColor" d="M12.001 4.8q-4.8 0-6 4.8q1.8-2.4 4.2-1.8c.913.228 1.565.89 2.288 1.624C13.666 10.618 15.027 12 18.001 12q4.8 0 6-4.8q-1.8 2.4-4.2 1.8c-.913-.228-1.565-.89-2.288-1.624C16.337 6.182 14.976 4.8 12.001 4.8m-6 7.2q-4.8 0-6 4.8q1.8-2.4 4.2-1.8c.913.228 1.565.89 2.288 1.624c1.177 1.194 2.538 2.576 5.512 2.576q4.8 0 6-4.8q-1.8 2.4-4.2 1.8c-.913-.228-1.565-.89-2.288-1.624C10.337 13.382 8.976 12 6.001 12" />
+                </svg>
+                <text x="56" y="33" font-family="Inter, Arial, sans-serif" font-weight="500" font-size="18" fill="white">tailwindcss</text>
+            </div>
+            
+            <div class="logo-item">
+                <svg class="brand-logo" viewBox="0 0 260 50" fill="white">
+                    <circle cx="22" cy="25" r="16" fill="none" stroke="white" stroke-width="2"/>
+                    <text x="22" y="30" text-anchor="middle" font-family="Georgia, Times, serif" font-weight="700" font-size="16" fill="white">WP</text>
+                    <text x="48" y="32" font-family="Georgia, Times, serif" font-weight="400" font-size="18" fill="white">The Washington Post</text>
+                </svg>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <!-- DEVELOP SECTION -->
+    <section class="workflow-section">
+        <div class="container">
+            <div class="section-badge">
+                <span class="badge-num badge-blue">1</span>
+                <span class="badge-label badge-blue-text">Develop</span>
+            </div>
+            <h2 class="section-heading">Build when inspiration strikes</h2>
+            <p class="section-desc">
+                Free developers from time-consuming, unnecessary processes that<br>
+                slow your work, so you and your team can focus on creating.
+            </p>
+
+            <div class="workflow-grid">
+                <!-- Left: Code Editor -->
+                <div class="editor-mockup">
+                    <div class="editor-window">
+                        <div class="editor-header">
+                            <div class="window-dots">
+                                <span class="dot red"></span>
+                                <span class="dot yellow"></span>
+                                <span class="dot green"></span>
+                            </div>
+                            <span class="editor-filename">index.js</span>
+                        </div>
+                        <div class="editor-body">
+                            <div class="line-numbers">
+                                <span>1</span><span>2</span><span>3</span><span>4</span>
+                                <span>5</span><span>6</span><span>7</span><span>8</span>
+                                <span>9</span><span>10</span><span>11</span><span>12</span>
+                                <span>13</span><span>14</span><span>15</span>
+                            </div>
+                            <div class="code-area">
+<pre><code><span class="token-keyword">export default</span> <span class="token-function">function</span>({ <span class="token-param">data</span> }) {
+  <span class="token-keyword">return</span> (
+    <span class="token-tag">&lt;div&gt;</span>
+      <span class="token-tag">&lt;h1&gt;</span>Hello World<span class="token-tag">&lt;/h1&gt;</span>
+      <span class="token-tag">&lt;p&gt;</span>{data.description}<span class="token-tag">&lt;/p&gt;</span>
+    <span class="token-tag">&lt;/div&gt;</span>
+  );
+}</code></pre>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="editor-window window-overlay">
+                        <div class="editor-header">
+                            <div class="window-dots">
+                                <span class="dot red"></span>
+                                <span class="dot yellow"></span>
+                                <span class="dot green"></span>
+                            </div>
+                            <span class="editor-filename">localhost:3000</span>
+                            <span class="editor-refresh">↻</span>
+                        </div>
+                        <div class="browser-body">
+                            <div class="browser-content">
+                                <div class="browser-bar"></div>
+                                <div class="browser-bar short"></div>
+                                <div class="browser-card"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right: Feature Cards -->
+                <div class="feature-cards">
+                    <div class="wf-card">
+                        <div class="wf-icon">⚡</div>
+                        <h4>The complete toolkit for the Web</h4>
+                        <p>Everything you need to build your site exactly how you imagine, from automatic API handling to built-in image and performance optimizations.</p>
+                    </div>
+                    <div class="wf-card">
+                        <div class="wf-icon">🔗</div>
+                        <h4>Easy integration with your backend</h4>
+                        <p>Connect your pages to any data source, headless CMS, or API and make it work in everyone's dev environment.</p>
+                    </div>
+                    <div class="wf-card">
+                        <div class="wf-icon">🧪</div>
+                        <h4>End-to-end testing on Localhost</h4>
+                        <p>From caching to Serverless Functions, all our cloud primitives work perfectly on localhost.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FRAMEWORKS ROW -->
+    <section class="frameworks">
+        <div class="container">
+            <p class="section-label">WORKS WITH 35+ FRAMEWORKS</p>
+            <div class="frameworks-row">
+                <div class="fw-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 128 128">
+                        <path d="M0 0h128v128H0z" fill="none" />
+                        <circle cx="64" cy="64" r="64" />
+                        <path fill="url(#SVGt8hikeFb)" d="M106.317 112.014L49.167 38.4H38.4v51.179h8.614v-40.24l52.54 67.884a64 64 0 0 0 6.763-5.209" />
+                        <path fill="url(#SVGffgZzcDK)" d="M81.778 38.4h8.533v51.2h-8.533z" />
+                        <defs>
+                            <linearGradient id="SVGt8hikeFb" x1="109" x2="144.5" y1="116.5" y2="160.5" gradientTransform="scale(.71111)" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#fff" />
+                                <stop offset="1" stop-color="#fff" stop-opacity="0" />
+                            </linearGradient>
+                            <linearGradient id="SVGffgZzcDK" x1="121" x2="120.799" y1="54" y2="106.875" gradientTransform="scale(.71111)" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#fff" />
+                                <stop offset="1" stop-color="#fff" stop-opacity="0" />
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                </div>
+                <div class="fw-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none" />
+                        <path fill="currentColor" d="M14.23 12.004a2.236 2.236 0 0 1-2.235 2.236a2.236 2.236 0 0 1-2.236-2.236a2.236 2.236 0 0 1 2.235-2.236a2.236 2.236 0 0 1 2.236 2.236m2.648-10.69c-1.346 0-3.107.96-4.888 2.622c-1.78-1.653-3.542-2.602-4.887-2.602c-.41 0-.783.093-1.106.278c-1.375.793-1.683 3.264-.973 6.365C1.98 8.917 0 10.42 0 12.004c0 1.59 1.99 3.097 5.043 4.03c-.704 3.113-.39 5.588.988 6.38c.32.187.69.275 1.102.275c1.345 0 3.107-.96 4.888-2.624c1.78 1.654 3.542 2.603 4.887 2.603c.41 0 .783-.09 1.106-.275c1.374-.792 1.683-3.263.973-6.365C22.02 15.096 24 13.59 24 12.004c0-1.59-1.99-3.097-5.043-4.032c.704-3.11.39-5.587-.988-6.38a2.17 2.17 0 0 0-1.092-.278zm-.005 1.09v.006c.225 0 .406.044.558.127c.666.382.955 1.835.73 3.704c-.054.46-.142.945-.25 1.44a23.5 23.5 0 0 0-3.107-.534A24 24 0 0 0 12.769 4.7c1.592-1.48 3.087-2.292 4.105-2.295zm-9.77.02c1.012 0 2.514.808 4.11 2.28c-.686.72-1.37 1.537-2.02 2.442a23 23 0 0 0-3.113.538a15 15 0 0 1-.254-1.42c-.23-1.868.054-3.32.714-3.707c.19-.09.4-.127.563-.132zm4.882 3.05q.684.704 1.36 1.564c-.44-.02-.89-.034-1.345-.034q-.691-.001-1.36.034c.44-.572.895-1.096 1.345-1.565zM12 8.1c.74 0 1.477.034 2.202.093q.61.874 1.183 1.86q.557.961 1.018 1.946c-.308.655-.646 1.31-1.013 1.95c-.38.66-.773 1.288-1.18 1.87a25.6 25.6 0 0 1-4.412.005a27 27 0 0 1-1.183-1.86q-.557-.961-1.018-1.946a25 25 0 0 1 1.013-1.954c.38-.66.773-1.286 1.18-1.868A25 25 0 0 1 12 8.098zm-3.635.254c-.24.377-.48.763-.704 1.16q-.336.585-.635 1.174c-.265-.656-.49-1.31-.676-1.947c.64-.15 1.315-.283 2.015-.386zm7.26 0q1.044.153 2.006.387c-.18.632-.405 1.282-.66 1.933a26 26 0 0 0-1.345-2.32zm3.063.675q.727.226 1.375.498c1.732.74 2.852 1.708 2.852 2.476c-.005.768-1.125 1.74-2.857 2.475c-.42.18-.88.342-1.355.493a24 24 0 0 0-1.1-2.98c.45-1.017.81-2.01 1.085-2.964zm-13.395.004c.278.96.645 1.957 1.1 2.98a23 23 0 0 0-1.086 2.964c-.484-.15-.944-.318-1.37-.5c-1.732-.737-2.852-1.706-2.852-2.474s1.12-1.742 2.852-2.476c.42-.18.88-.342 1.356-.494m11.678 4.28c.265.657.49 1.312.676 1.948c-.64.157-1.316.29-2.016.39a26 26 0 0 0 1.341-2.338zm-9.945.02c.2.392.41.783.64 1.175q.345.586.705 1.143a22 22 0 0 1-2.006-.386c.18-.63.406-1.282.66-1.933zM17.92 16.32c.112.493.2.968.254 1.423c.23 1.868-.054 3.32-.714 3.708c-.147.09-.338.128-.563.128c-1.012 0-2.514-.807-4.11-2.28c.686-.72 1.37-1.536 2.02-2.44c1.107-.118 2.154-.3 3.113-.54zm-11.83.01c.96.234 2.006.415 3.107.532c.66.905 1.345 1.727 2.035 2.446c-1.595 1.483-3.092 2.295-4.11 2.295a1.2 1.2 0 0 1-.553-.132c-.666-.38-.955-1.834-.73-3.703c.054-.46.142-.944.25-1.438zm4.56.64q.661.032 1.345.034q.691.001 1.36-.034c-.44.572-.895 1.095-1.345 1.565q-.684-.706-1.36-1.565" />
+                    </svg>
+                </div>
+                <div class="fw-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none" />
+                        <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                            <path d="m15 8l-5 3l.821-.495c1.86-1.15 4.412-.49 5.574 1.352a3.91 3.91 0 0 1-1.264 5.42l-5.053 3.126c-1.86 1.151-4.312.591-5.474-1.251a3.91 3.91 0 0 1 1.263-5.42l.26-.16" />
+                            <path d="m8 17l5-3l-.822.496c-1.86 1.151-4.411.491-5.574-1.351a3.91 3.91 0 0 1 1.264-5.42l5.054-3.127c1.86-1.15 4.311-.59 5.474 1.252a3.91 3.91 0 0 1-1.264 5.42l-.26.16" />
+                        </g>
+                    </svg>
+                </div>
+                <div class="fw-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 128 128">
+                        <path d="M0 0h128v128H0z" fill="none" />
+                        <path fill="currentColor" d="m39.267 108.97l-.284-.567c-.567-1.135-.567-2.27-.283-3.689H8.059l45.395-80.576l19.01 34.33l6.241-4.54l-19.01-34.33c-.283-.567-2.553-3.971-6.241-3.971c-1.703 0-4.256.567-6.242 4.256L1.25 101.31c-.284.85-2.27 4.54-.568 7.66c1.135 1.702 2.837 3.405 6.81 3.405h38.586c-3.973 0-5.959-1.703-6.81-3.405zm87.385-7.377l-36.883-66.39c-.567-.568-2.554-4.257-6.242-4.257c-1.702 0-4.256.852-6.242 4.256l-4.823 7.944v15.321l11.065-19.01l36.6 65.256h-13.903a6.53 6.53 0 0 1-.567 3.973l-.284.283c-1.702 3.121-5.958 3.405-6.526 3.405h21.563c.851 0 4.823-.284 6.81-3.405c.85-1.418 1.418-3.972-.568-7.376m-20.144 7.377v-.284l.284-.567c.283-1.135.567-2.27.283-3.405l-1.134-3.404L77 50.808l-4.255-7.66h-.284l-4.256 7.66l-28.939 50.502l-1.135 3.404a6.8 6.8 0 0 0 .568 4.256c1.135 1.702 2.837 3.405 6.81 3.405h53.906c.851 0 5.107-.284 7.093-3.405M72.462 58.468l26.386 46.246H46.076z" />
+                    </svg>
+                </div>
+                <div class="fw-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none" />
+                        <path fill="currentColor" d="M14.484 3.028L12.026 7.24L9.568 3.028L1 3l11.03 19L23 3zm-8.668.774l6.21 10.707l6.211-10.707h3.393l-9.604 16.554L2.36 3.8h3.455v.001Z" />
+                    </svg>
+                </div>
+                <div class="fw-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none" />
+                        <path fill="currentColor" d="M10.174 12.594h3.652L12 8.095z" />
+                        <path fill="currentColor" d="M12 1L2 4.652l1.525 13.541L12 23l8.475-4.807L22 4.652zm6.24 16.786h-2.33l-1.257-3.212H9.347L8.09 17.786H5.76L12 3.431z" />
+                    </svg>
+                </div>
+                <div class="fw-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 128 128">
+                        <path d="M0 0h128v128H0z" fill="none" />
+                        <path fill="currentColor" d="M110 26.1L73.3 4.8c-6.6-3.8-14.7-3.7-21.2.3L19.2 25.4c-6.5 4.1-10.4 11-10.4 18.7v41.4c0 7.6 4.1 14.7 10.7 18.5L53 123.3c3.1 1.8 6.5 2.7 10 2.7c3.4 0 6.8-.9 9.8-2.6l36.4-20.5c6.2-3.5 10-10.1 10-17.2V42c0-6.5-3.5-12.6-9.2-15.9M52.5 67.9v29H38.6V30.5h13.9v24.2h23V30.5h13.9v66.4H75.5v-29z" />
+                    </svg>
+                </div>
+                <div class="fw-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none" />
+                        <path fill="currentColor" d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12s12-5.4 12-12S18.6 0 12 0m0 2.571c3.171 0 5.915 1.543 7.629 3.858l-1.286 1.115C16.886 5.572 14.571 4.286 12 4.286c-3.343 0-6.171 2.143-7.286 5.143l9.857 9.857c2.486-.857 4.373-3 4.973-5.572h-4.115V12h6c0 4.457-3.172 8.228-7.372 9.17L2.83 9.944C3.772 5.743 7.543 2.57 12 2.57zm-9.429 9.6l9.344 9.258c-2.4-.086-4.801-.943-6.601-2.743s-2.743-4.201-2.743-6.515" />
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PREVIEW SECTION -->
+    <section class="workflow-section preview-section">
+        <div class="container">
+            <div class="section-badge">
+                <span class="badge-num badge-pink">2</span>
+                <span class="badge-label badge-pink-text">Preview</span>
+            </div>
+            <h2 class="section-heading">Iterate with your team</h2>
+            <p class="section-desc">
+                Make frontend development a collaborative experience with<br>
+                automatic Preview Deployments for every code change, by<br>
+                seamlessly integrating with <span class="text-link">GitHub</span>, <span class="text-link">GitLab</span>, and <span class="text-link">Bitbucket</span>.
+            </p>
+
+            <div class="workflow-grid reverse">
+                <!-- Left: Terminal + Preview -->
+                <div class="preview-mockup">
+                    <div class="terminal-window">
+                        <div class="terminal-header">
+                            <div class="window-dots">
+                                <span class="dot red"></span>
+                                <span class="dot yellow"></span>
+                                <span class="dot green"></span>
+                            </div>
+                            <span class="terminal-title">bash</span>
+                        </div>
+                        <div class="terminal-body">
+                            <div class="term-line">
+                                <span class="prompt">~</span>
+                                <span class="path">e-commerce-site</span>
+                                <span class="command">git push</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="deploy-card">
+                        <div class="deploy-header">
+                            <span class="deploy-dot green"></span>
+                            <span class="deploy-text"><strong>vercel</strong> bot deployed to Preview just now</span>
+                        </div>
+                    </div>
+
+                    <div class="comment-card">
+                        <div class="comment-header">
+                            <span class="comment-avatar">V</span>
+                            <span class="comment-user">vercel</span>
+                            <span class="comment-time">commented 3 minutes ago</span>
+                        </div>
+                        <div class="comment-body">
+                            <p>The latest updates on your project. Learn more about <span class="text-link">Vercel for Git →</span></p>
+                            <div class="comment-table">
+                                <div class="ct-row ct-header">
+                                    <span>Name</span><span>Status</span><span>Preview</span><span>Updated</span>
+                                </div>
+                                <div class="ct-row">
+                                    <span>store</span><span class="status ready">Ready</span><span class="text-link">Visit Preview →</span><span>Oct 25, 2022 at 12:37 PM</span>
+                                </div>
+                            </div>
+                            <div class="comment-highlight">
+                                Here's my deploy preview for the page update:<br>
+                                <span class="text-link">https://shop-git-new-button.vercel.app</span>
+                            </div>
+                        </div>
+                        <div class="comment-footer">
+                            <span class="comment-author">Rauno — Design Engineering Team</span>
+                        </div>
+                    </div>
+
+                    <div class="ui-review-card">
+                        <div class="review-header">
+                            <span class="review-dot green"></span>
+                            <span>shop-git-new-button.vercel.app</span>
+                        </div>
+                        <div class="review-body">
+                            <div class="review-toolbar"></div>
+                            <div class="review-content">
+                                <div class="review-sidebar"></div>
+                                <div class="review-main">
+                                    <div class="review-image"></div>
+                                    <div class="review-bubble">
+                                        <p><strong>@rauno</strong> Can we change this button color to blue?</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="review-footer">
+                            <span>Greta — Product Marketing Team</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right: Feature Cards -->
+                <div class="feature-cards">
+                    <div class="wf-card">
+                        <div class="wf-icon">⬆</div>
+                        <h4>Push to deploy</h4>
+                        <p>Every deploy automatically generates a shareable live preview site that stays up-to-date with your changes.</p>
+                    </div>
+                    <div class="wf-card">
+                        <div class="wf-icon">🔄</div>
+                        <h4>Automatic Previews for every branch</h4>
+                        <p>Each new branch receives a live, production-like URL that everyone on your team can visit.</p>
+                    </div>
+                    <div class="wf-card">
+                        <div class="wf-icon">💬</div>
+                        <h4>Collaborative reviews on UI</h4>
+                        <p>Comment directly on components, layouts, copy, and more in real context and real time, integrated seamlessly with GitHub and Slack.</p>
+                        <div class="wf-tag">Commenting on Preview Deployments is now available →</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SHIP SECTION -->
+    <section class="workflow-section ship-section">
+        <div class="container">
+            <div class="section-badge">
+                <span class="badge-num badge-orange">3</span>
+                <span class="badge-label badge-orange-text">Ship</span>
+            </div>
+            <h2 class="section-heading">Delight every visitor</h2>
+
+            <div class="ship-grid">
+                <!-- Left: Content -->
+                <div class="ship-content">
+                    <h3>Speed is critical to customers — and SEO</h3>
+                    <p>Next.js and Vercel work together to deliver the best performance for your end users, while maintaining best-in-class SEO practices.</p>
+                    <p>Built on cutting-edge serverless technology, Vercel can withstand any traffic spike, with automatic failover and global replication of assets.</p>
+                    
+                    <div class="ship-features">
+                        <div class="ship-feature">
+                            <div class="ship-icon">🌍</div>
+                            <div>
+                                <h4>Global Edge Network</h4>
+                                <p>Your site, fast everywhere. Deploy content around the world and update it in 300ms.</p>
+                            </div>
+                        </div>
+                        <div class="ship-feature">
+                            <div class="ship-icon">📊</div>
+                            <div>
+                                <h4>First-party monitoring and observability</h4>
+                                <p>Analyze logs, understand traffic and usage, and easily optimize your applications, without extra tooling or code.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="ship-tag">Monitoring is now available in Beta for Enterprise customers →</div>
+                </div>
+
+                <!-- Right: Globe -->
+                <div class="globe-container">
+                    <div class="globe">
+                        <div class="globe-grid"></div>
+                        <div class="globe-dots">
+                            <span class="gdot" style="top:20%;left:30%"></span>
+                            <span class="gdot" style="top:30%;left:50%"></span>
+                            <span class="gdot" style="top:25%;left:70%"></span>
+                            <span class="gdot" style="top:40%;left:25%"></span>
+                            <span class="gdot" style="top:45%;left:55%"></span>
+                            <span class="gdot" style="top:35%;left:80%"></span>
+                            <span class="gdot" style="top:55%;left:35%"></span>
+                            <span class="gdot" style="top:50%;left:60%"></span>
+                            <span class="gdot" style="top:60%;left:75%"></span>
+                            <span class="gdot" style="top:65%;left:45%"></span>
+                            <span class="gdot" style="top:70%;left:20%"></span>
+                            <span class="gdot" style="top:75%;left:65%"></span>
+                        </div>
+                        <div class="globe-glow"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- STATS BAR -->
+    <section class="stats-bar">
+        <div class="container stats-container">
+            <div class="stat-item">
+                <span class="stat-num">90</span>
+                <span class="stat-label-small">CITIES</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-num">33B+</span>
+                <span class="stat-label-small">REQUESTS PER WEEK</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-num">10PB</span>
+                <span class="stat-label-small">DATA SERVED</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-num">99.99%</span>
+                <span class="stat-label-small">GUARANTEED UPTIME</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- GET STARTED -->
+    <section class="get-started">
+        <div class="container">
+            <p class="section-label">BEGIN YOUR VERCEL JOURNEY</p>
+            <div class="gs-grid">
+                <div class="gs-card">
+                    <h3>Import Git Repository</h3>
+                    <p>Select a Git provider to import an existing project from a Git Repository.</p>
+                    <div class="git-buttons">
+                        <button class="git-btn github">
+                            <span class="git-icon">⚫</span> Continue with GitHub
+                        </button>
+                        <button class="git-btn gitlab">
+                            <span class="git-icon">🟠</span> Continue with GitLab
+                        </button>
+                        <button class="git-btn bitbucket">
+                            <span class="git-icon">🔵</span> Continue with Bitbucket
+                        </button>
+                    </div>
+                    <a href="#" class="gs-link">Import Third-Party Git Repository →</a>
+                </div>
+                <div class="gs-card">
+                    <h3>Clone Template</h3>
+                    <p>Alternatively, get started with a template.</p>
+                    <div class="template-grid">
+                        <div class="template-item">
+                            <div class="template-thumb t-next"></div>
+                            <span>Next.js</span>
+                        </div>
+                        <div class="template-item">
+                            <div class="template-thumb t-commerce"></div>
+                            <span>Next.js Commerce</span>
+                        </div>
+                        <div class="template-item">
+                            <div class="template-thumb t-svelte"></div>
+                            <span>SvelteKit</span>
+                        </div>
+                        <div class="template-item">
+                            <div class="template-thumb t-nuxt"></div>
+                            <span>Nuxt.js</span>
+                        </div>
+                    </div>
+                    <a href="#" class="gs-link">Browse All Templates →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <a href="#" class="logo">
+                    <svg width="22" height="20" viewBox="0 0 76 65" fill="white">
+                        <path d="M37.5274 0L75.0548 65H0L37.5274 0Z"/>
+                    </svg>
+                    <span class="logo-text">Vercel</span>
+                </a>
+            </div>
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>Frameworks</h4>
+                    <a href="#">Next.js</a>
+                    <a href="#">Create React App</a>
+                    <a href="#">Svelte</a>
+                    <a href="#">Nuxt</a>
+                    <a href="#">Gatsby</a>
+                    <a href="#">Vue</a>
+                    <a href="#">Angular</a>
+                    <a href="#">More Frameworks</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Resources</h4>
+                    <a href="#">Documentation</a>
+                    <a href="#">Experts</a>
+                    <a href="#">Customers</a>
+                    <a href="#">Guides</a>
+                    <a href="#">Help</a>
+                    <a href="#">API Reference</a>
+                    <a href="#">OSS</a>
+                    <a href="#">Command-Line</a>
+                    <a href="#">Integrations</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <a href="#">Home</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Changelog</a>
+                    <a href="#">About</a>
+                    <a href="#">Careers</a>
+                    <a href="#">Pricing</a>
+                    <a href="#">Enterprise</a>
+                    <a href="#">Security</a>
+                    <a href="#">Next.js Conf</a>
+                    <a href="#">Partners</a>
+                    <a href="#">Contact Us</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Legal</h4>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Trademark Policy</a>
+                    <a href="#">Inactivity Policy</a>
+                    <a href="#">DMCA Policy</a>
+                    <a href="#">Support Terms</a>
+                    <a href="#">DPA</a>
+                    <a href="#">SLA</a>
+                    <a href="#">Sub-processors</a>
+                    <a href="#">Cookie Preferences</a>
+                    <a href="#">Event Terms and Conditions</a>
+                    <a href="#">Job Applicant Privacy Notice</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>Copyright © 2023 Vercel Inc. All rights reserved.</p>
+                <div class="footer-social">
+                    <a href="#" aria-label="GitHub">⚫</a>
+                    <a href="#" aria-label="Twitter">🐦</a>
+                    <span class="status-badge">Status: All systems normal</span>
+                    <span class="theme-toggle">◐ Dark</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
